@@ -1,5 +1,5 @@
 .img300{
-    width: 300px;
+    width: 100%;
     
 }
 
@@ -17,4 +17,40 @@
 
 .img700{
     width: 300px;
+}
+
+
+.menu-item{
+    padding: 20px;
+    font-family: sans-serif;
+}
+.menu-item a{
+    color: black;
+    font-weight: bolder;
+}
+
+.menu-color{
+    background-color: white !important;
+    box-shadow: 0px 3px 3px #aaa;
+}
+
+#banner{
+    width:100%;
+}
+
+.inner-text{
+    padding-top: 10%;
+    width:70%;
+    margin: auto;
+    font-size: 120%;
+    background-color: #1e3932;
+    
+}
+
+#activities{
+    padding: 10%;
+    margin: auto;
+    background-image: url("../images/tour17.jpg");
+    background-size: cover;
+    color:white;
 }

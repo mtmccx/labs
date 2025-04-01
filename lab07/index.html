@@ -10,39 +10,44 @@
   <!-- My own CSS style, put all your customize CSS inside -->
   <link href="css/master.css" rel="stylesheet" type="text/css">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+ 
 </head>
 <body>
 
   <!-- header -->
   <header class="container">
-    <nav class=""navbar navbar-expand-sm bg-light navbar-light>
+    <nav class="navbar navbar-expand-sm bg-light navbar-light">
       <ul class="nav">
-        <li class="nav-item">
+        <li class="nav-item menu-item">
           <a class="nav-link" href="#intro">INTRODUCTION</a>
         </li>
-        <li class="nav-item">
+        <li class="nav-item menu-item">
           <a class="nav-link" href="#outcome">OUTCOME</a>
         </li>
-        <li class="nav-item">
+        <li class="nav-item menu-item">
           <a class="nav-link" href="#activities">ACTIVITIES</a>
         </li>
       </ul>
     </nav>
-    <img src="images/top1.jpg" alt="Full Width Photo"> </header>
+    <img src="images/top1.jpg" alt="Full Width Photo" id="banner" > 
+  </header>
 
   <!-- Section 1. Introduction -->
   <section id="intro" class="container">
     <div class="row">
       <div class="col-sm-8">
-    <h1>AScCIMP</h1>
-    <p>Associate of Science
-      in Creative and Interactive Media Production</p>
-    <p>The programme aims to develop students’creativity, aesthetics and innovative use of media, provide students with appropriate knowledge and skills in the development of interactive media systems and media production process, provide students with the broad foundation and inter-disciplinary basics for further studies to higher degree and life-long learning.</p>
+        <div class="inner-text">
+    <h1 style="color:white; font-family: serif;"> AScCIMP</h1>
+    <p style="color:white; font-family: sans-serif;"> Associate of Science in Creative and Interactive Media Production </p>
+    <p style="color:white; font-family: sans-serif;">The programme aims to develop students’creativity, aesthetics and innovative use of media, provide students with appropriate knowledge and skills in the development of interactive media systems and media production process, provide students with the broad foundation and inter-disciplinary basics for further studies to higher degree and life-long learning.</p>
+    <button> Explore More</button>
+    </div>
     </div>
     <div class="col-sm-4">
       <img class="img300" src="images/cimp_intro.jpg" alt="cimp intro">
     </div>
     </div>
+    
   </section>
 
   <!-- Section 2. Learning Outcome -->
@@ -89,9 +94,9 @@
 
   <!-- Footer -->
   <footer class="container">
-    <h4>Faculty of Science and Technology</h4>
+    <h4 >Faculty of Science and Technology</h4>
     <p>1/F, Le Billionnaire, 46 Sa Po Road, Kowloon City, Hong Kong<br>
-      Tel: (852) 2707-3232 Fax: (852) 2707-3231 E-mail: uowchk-fst@uow.edu.au</p>
+      <p>Tel: (852) 2707-3232 Fax: (852) 2707-3231 E-mail: uowchk-fst@uow.edu.au</p>
   </footer>
 </body>
 </html>
